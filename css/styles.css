@@ -1682,6 +1682,11 @@ body.dark #our-projects .project-card__text {
         overflow: hidden;
     }
 
+    .projects-slider__slide.swiper-slide-active .project-card__tags {
+        max-height: none;
+        overflow: visible;
+    }
+
     .projects-slider {
         padding: 0;
     }
