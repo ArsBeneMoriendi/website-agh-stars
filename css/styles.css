@@ -958,6 +958,14 @@ body.dark .section-light-blue {
     box-shadow: 0 10px 40px rgba(234, 173, 88, 0.3);
 }
 
+@media (min-width: 768px) {
+    .contact-card:last-child {
+        grid-column: 1 / -1;
+        width: calc((100% - 2rem) / 2);
+        justify-self: center;
+    }
+}
+
 .contact-card img {
     width: 100px;
     height: 100px;
@@ -1709,7 +1717,7 @@ body.dark #our-projects .project-card__text {
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .projects-slider {
         padding-inline: 40px;
     }
